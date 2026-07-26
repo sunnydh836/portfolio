@@ -1,0 +1,96 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="850"
+  height="380"
+  viewBox="0 0 850 380"
+  preserveAspectRatio="none"
+>
+  <!-- Shadow -->
+  <rect
+    x="12"
+    y="14"
+    width="826"
+    height="354"
+    rx="24"
+    fill="#000000"
+    opacity="0.35"
+  />
+
+  <!-- Main terminal body -->
+  <rect
+    x="4"
+    y="4"
+    width="830"
+    height="355"
+    rx="24"
+    fill="#000000"
+    stroke="#111111"
+    stroke-width="5"
+  />
+
+  <!-- Title bar -->
+  <path
+    d="
+      M29 4
+      H809
+      A25 25 0 0 1 834 29
+      V50
+      H4
+      V29
+      A25 25 0 0 1 29 4
+      Z
+    "
+    fill="#e5e7eb"
+  />
+
+  <!-- Header divider -->
+  <line
+    x1="4"
+    y1="50"
+    x2="834"
+    y2="50"
+    stroke="#111111"
+    stroke-width="4"
+  />
+
+  <!-- Window buttons -->
+  <circle
+    cx="32"
+    cy="27"
+    r="7"
+    fill="#ff5f57"
+    stroke="#000000"
+    stroke-width="2"
+  />
+
+  <circle
+    cx="58"
+    cy="27"
+    r="7"
+    fill="#ffbd2e"
+    stroke="#000000"
+    stroke-width="2"
+  />
+
+  <circle
+    cx="84"
+    cy="27"
+    r="7"
+    fill="#28c840"
+    stroke="#000000"
+    stroke-width="2"
+  />
+
+  <!-- Static title only -->
+  <text
+    x="419"
+    y="32"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="15"
+    font-weight="700"
+    fill="#000000"
+  >
+    root@sunny:~
+  </text>
+</svg>
