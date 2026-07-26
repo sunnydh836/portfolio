@@ -79,8 +79,8 @@ const Hero = () => {
             I am a <span className="font-bold bg-white px-1 border border-black">4th-year (final) student at BIT Meerut</span>, pursuing a Bachelor of Technology in Computer Science and Engineering. I define myself as a <span className="font-bold bg-white px-1 border border-black">Men in STEM</span> aspiring to build scalable software.
           </p>
           <p className="text-lg font-medium leading-relaxed mb-4">
-            I have strong aptitude, technical, and communication skills, and a logical approach to problem-solving. My diverse schooling across India has made me adaptable and eager to create.
-          </p>
+Passionate Full Stack Developer building modern, scalable, and AI-powered web applications.
+I enjoy solving real-world problems through clean code and continuous learning</p>
           <div className="bg-white p-4 border-2 border-black rounded-xl inline-block font-bold shadow-neo-sm ">
             🚀 Open to Software and Research Internships
           </div>
