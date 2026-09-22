@@ -7,7 +7,7 @@ interface SectionProps {
     onToggle: () => void;
 }
 
-const BeyondCode: React.FC<SectionProps> = ({ isOpen, onToggle }) => {
+const Ambassador: React.FC<SectionProps> = ({ isOpen, onToggle }) => {
     return (
         <motion.section
             initial={{ opacity: 0, x: -100 }}
@@ -18,7 +18,7 @@ const BeyondCode: React.FC<SectionProps> = ({ isOpen, onToggle }) => {
         >
 
             <div className="flex items-center justify-between px-6 md:px-10 py-6">
-                <h2 className="text-3xl md:text-4xl font-shrikhand text-black uppercase tracking-wide">BEYOND CODE</h2>
+                <h2 className="text-3xl md:text-4xl font-shrikhand text-black uppercase tracking-wide">Ambassador </h2>
                 <button
                     onClick={onToggle}
                     className="bg-white text-black px-6 py-2 font-bold border-4 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-none hover:translate-x-1 hover:translate-y-1 transition-all uppercase tracking-wider"
@@ -61,7 +61,7 @@ const BeyondCode: React.FC<SectionProps> = ({ isOpen, onToggle }) => {
 
                                 <div className="bg-white border-4 border-black p-8 border-b-8 border-r-8 hover:-translate-y-1 transition-all relative shadow-neo mt-4">
                                     <div className="absolute -top-10 -right-6 w-32 h-32 bg-custom-pink rounded-full border-4 border-black overflow-hidden shadow-neo z-20">
-                                        <img src="/sbcl.jpeg" alt="AWS sbcl" className="w-full h-full object-cover" />
+                                        <img src="/awssbcl.jpeg" alt="AWS sbcl" className="w-full h-full object-cover" />
                                     </div>
 
                                     <div className="relative z-10">
@@ -71,7 +71,7 @@ const BeyondCode: React.FC<SectionProps> = ({ isOpen, onToggle }) => {
                                         </div>
                                         <p className="font-bold text-xl mb-4">@ AWS</p>
                                         <p className="text-sm font-mono bg-custom-green text-black font-bold inline-block px-3 py-1 border-2 border-black rounded-full mb-6 shadow-sm">
-                                            2026 - Present
+                                            2026 Aug- Sept
                                         </p>
                                         <p className="text-base font-medium leading-relaxed bg-gray-100 p-4 rounded-2xl border-2 border-black">
                                             Directed content creation strategies (<span className="font-bold bg-custom-pink px-1 border border-black">20% engagement growth</span>). Hosted/anchored  on Campus for <span className="font-bold">300+ students</span>.
@@ -87,4 +87,4 @@ const BeyondCode: React.FC<SectionProps> = ({ isOpen, onToggle }) => {
     );
 };
 
-export default BeyondCode;
+export default Ambassador;

@@ -52,18 +52,18 @@ const Hackathons: React.FC<SectionProps> = ({ isOpen, onToggle }) => {
                             </div>
                             <div className="p-6 flex flex-col flex-grow">
                                 <div className="flex justify-between items-start mb-4 gap-4">
-                                    <h3 className="text-xl font-bold leading-snug">Google Girl Hackathon 2025</h3>
+                                    <h3 className="text-xl font-bold leading-snug">Internal SIH Hackathon 2025 at BIT</h3>
                                     <span className="text-3xl flex-shrink-0">🥇</span>
                                 </div>
-                                <p className="font-bold text-lg mb-2 text-custom-red">Finalist</p>
+                                <p className="font-bold text-lg mb-2 text-custom-red">1St Place</p>
                                 <p className="text-sm font-medium text-gray-700 leading-relaxed border-t-4 border-black border-dashed pt-4 mt-auto">
-                                    Top 1% of all applicants.
+                                    !st out of 20 teams.
                                 </p>
                             </div>
                         </div>
 
 
-                        <div className="border-4 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-y-[-4px] transition-all flex flex-col h-full relative bg-white">
+                        {/* <div className="border-4 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-y-[-4px] transition-all flex flex-col h-full relative bg-white">
                             <div className="border-b-4 border-black px-3 py-2 flex justify-between items-center bg-custom-blue">
                                 <div className="flex gap-2">
                                     <div className="w-3 h-3 rounded-full bg-white border-2 border-black"></div>
@@ -84,10 +84,10 @@ const Hackathons: React.FC<SectionProps> = ({ isOpen, onToggle }) => {
                                     Top students out of 1.5 lakh+ participants.
                                 </p>
                             </div>
-                        </div>
+                        </div> */}
 
 
-                        <div className="border-4 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-y-[-4px] transition-all flex flex-col h-full relative bg-white">
+                        {/* <div className="border-4 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-y-[-4px] transition-all flex flex-col h-full relative bg-white">
                             <div className="border-b-4 border-black px-3 py-2 flex justify-between items-center bg-custom-green">
                                 <div className="flex gap-2">
                                     <div className="w-3 h-3 rounded-full bg-white border-2 border-black"></div>
@@ -108,7 +108,7 @@ const Hackathons: React.FC<SectionProps> = ({ isOpen, onToggle }) => {
                                     Out of 150+ teams.
                                 </p>
                             </div>
-                        </div>
+                        </div> */}
 
 
                         <div className="border-4 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-y-[-4px] transition-all flex flex-col h-full relative bg-white">
@@ -124,12 +124,12 @@ const Hackathons: React.FC<SectionProps> = ({ isOpen, onToggle }) => {
                             </div>
                             <div className="p-6 flex flex-col flex-grow">
                                 <div className="flex justify-between items-start mb-4 gap-4">
-                                    <h3 className="text-xl font-bold leading-snug">Monad Blitz Bangalore v4</h3>
+                                    <h3 className="text-xl font-bold leading-snug">HACK-N-WIN Hackathon at CGC University Mohali</h3>
                                     <span className="text-3xl flex-shrink-0">🏆</span>
                                 </div>
-                                <p className="font-bold text-lg mb-2 text-custom-purple">Top 10</p>
+                                <p className="font-bold text-lg mb-2 text-custom-purple">Top 20</p>
                                 <p className="text-sm font-medium text-gray-700 leading-relaxed border-t-4 border-black border-dashed pt-4 mt-auto">
-                                    Blockchain and AI Hackathon.
+                                    top 20 out of 150 teams.
                                 </p>
                             </div>
                         </div>
